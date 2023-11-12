@@ -1,5 +1,5 @@
 Sameep Singh
-Student ID
+Student ID - 1213365
  
  - Any resource you used for assistance
         -- I used lecture slides and recorded lectures 
@@ -13,7 +13,7 @@ Student ID
     The hashByOddEven method creates a unique code for each word or set of characters.
 
     It works simply by checking each character in a word. If a character's number value is odd, the method adds it to a total; if it's even, it subtracts it.
-    
+
     This process is very quick and doesn't require complex calculations, making it fast for creating these unique codes.   
 
     
