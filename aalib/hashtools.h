@@ -44,6 +44,7 @@ struct AssociativeArray {
 /** prototypes */
 HashIndex hashByLength(AAKeyType key, size_t keyLength, HashIndex size);
 HashIndex hashBySum(AAKeyType key, size_t keyLength, HashIndex tableSize);
+HashIndex hashByOddEven(AAKeyType key, size_t keyLength, HashIndex size);
 HashIndex linearProbe(AssociativeArray *table, AAKeyType key, size_t keyLength, int index, int stopOnInvalid, int *cost);
 HashIndex  quadraticProbe(AssociativeArray *table, AAKeyType key, size_t keyLength, int index, int stopOnInvalid, int *cost);
 HashIndex  doubleHashProbe(AssociativeArray *table, AAKeyType key, size_t keyLength, int index, int stopOnInvalid, int *cost);
